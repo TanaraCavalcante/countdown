@@ -1,5 +1,5 @@
 const countDownDate = new Date("Sep 27, 2025 00:00:00").getTime();
-const x = setInterval(function(){
+const x = setInterval(function () {
     const now = new Date().getTime();
     const distance = countDownDate - now;
 
@@ -13,4 +13,12 @@ const x = setInterval(function(){
     document.getElementById("minutes").innerHTML = minutes;
     document.getElementById("seconds").innerHTML = seconds;
 
-},1000);
+    if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("days").innerHTML = "00";
+        document.getElementById("hours").innerHTML = "00";
+        document.getElementById("minutes").innerHTML = "00";
+        document.getElementById("seconds").innerHTML = "00";
+    }
+
+}, 1000);

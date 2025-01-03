@@ -61,18 +61,6 @@
     padding-bottom: 10px;
 }
 
-.content button{
-  background: transparent;
-  border: 2px solid #141010;
-  outline: none;
-  padding: 12px 25px;
-  color: #141010;
-  cursor: pointer;
-}
-.content button i{
-    font-size: 20px;
-    margin-left: 10px;
-}
 
 .bday-time{
     display: flex;
@@ -80,9 +68,6 @@
     gap: 60px;
 }
 
-/* .bday-time div{
-   flex-basis: 100px; 
-} */
 
 .bday-time div p{
     font-size: 60px;
