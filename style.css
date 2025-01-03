@@ -20,11 +20,24 @@
     text-shadow: 5px 5px 20px;
 }
 
-.container i{
+.fa-cake-candles{
     font-size: 120px;
     position: absolute;
     right: 30%;
     bottom: 5px;
+    animation: rocket 4s linear infinite;
+}
+
+@keyframes rocket{
+    0%{
+        bottom: 105%;
+        opacity: 0;
+    }
+    100%{
+        bottom: 0;
+        opacity: 1;
+    }
+
 }
 
 .content{
