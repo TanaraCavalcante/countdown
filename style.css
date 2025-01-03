@@ -56,3 +56,16 @@ p{
     font-size: 20px;
     margin-left: 10px;
 }
+
+.bday-time{
+    display: flex;
+}
+
+.bday-time div{
+   flex-basis: 100px; 
+}
+
+.bday-time div p{
+    font-size: 60px;
+    margin-bottom: -14px;
+}
