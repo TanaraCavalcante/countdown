@@ -7,30 +7,24 @@
 .container{
     width: 100vw;
     height: 100vh;
-    background-image: url(image/background.jpeg);
+    background-image: url(image/background.jpg);
     background-position: center;
     background-size: cover;
     padding: 0 8%;
     position: relative;
 }
 
-section h2{
-    padding: 50px 0;
+.container h2{
+    padding: 80px 0;
     font-size: 40px;
     text-shadow: 5px 5px 20px;
- 
 }
 
-h1{
-    font-size: 60px;
-    font-family: 'Dancing Script', cursive;
-    
-
-}
-
-p{
-    font-size: 20px;
-    padding-bottom: 10px;
+.container i{
+    font-size: 120px;
+    position: absolute;
+    right: 30%;
+    bottom: 5px;
 }
 
 .content{
@@ -42,6 +36,16 @@ p{
 
 .content h1 span{
     color: #d5032d;
+}
+
+.content h1{
+    font-size: 60px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.content p{
+    font-size: 20px;
+    padding-bottom: 10px;
 }
 
 .content button{
@@ -59,6 +63,7 @@ p{
 
 .bday-time{
     display: flex;
+    margin-bottom: 20px;
 }
 
 .bday-time div{
