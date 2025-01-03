@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
 }
 
 .container{
@@ -11,4 +12,9 @@
     background-position: center;
     background-size: cover;
     padding: 0 8%;
+}
+
+section h2{
+    padding: 50px;
+    font-size: 50px;
 }
