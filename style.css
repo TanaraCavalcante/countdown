@@ -39,3 +39,20 @@ p{
    transform: translateY(-50%); 
    color: #141010;
 }
+
+.content h1 span{
+    color: #d5032d;
+}
+
+.content button{
+  background: transparent;
+  border: 2px solid #141010;
+  outline: none;
+  padding: 12px 25px;
+  color: #141010;
+  cursor: pointer;
+}
+.content button i{
+    font-size: 20px;
+    margin-left: 10px;
+}
